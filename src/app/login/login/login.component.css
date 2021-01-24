@@ -1,0 +1,63 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.login-card {
+  background-color: var(--color-0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-4);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.login-form input {
+  height: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.login-icon {
+  margin-bottom: 20px;
+}
+
+.bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.bottom-buttons button {
+  padding: 1rem;
+  margin: 5px;
+  border: 1px solid var(--color-3);
+  border-radius: 5px;
+  background-color: var(--color-0);
+}
+
+.bottom-buttons button:hover {
+  background-color: var(--color-3);
+  color: var(--color-0);
+}

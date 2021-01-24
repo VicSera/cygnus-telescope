@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-image: url("src/assets/background.png");
+  --color-0: #fefcfb;
+  --color-1: #1282a2;
+  --color-2: #034078;
+  --color-3: #001f54;
+  --color-4: #0a1128;
+  color: var(--color-4);
+
+  --big-screen: 1200;
+  --small-screen: 600;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
