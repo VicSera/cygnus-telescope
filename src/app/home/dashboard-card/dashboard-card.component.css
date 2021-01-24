@@ -4,27 +4,39 @@
   background-color: var(--color-0);
   border: 2px solid var(--color-2);
   border-radius: 5px;
-
   height: 400px;
-
-  margin-bottom: 10px;
   padding: 10px;
 }
 
-@media only screen and (max-width: var(--small-screen)) {
-  .dashboard-card {
-    width: 90%;
-  }
+.dashboard-card:hover {
+  /*background-color: #f7bf19;*/
+  background-color: #eaeaea;
 }
 
-@media only screen and (min-width: var(--small-screen)) and (max-width: var(--big-screen)) {
-  .dashboard-card {
-    width: 45%;
-  }
+h1 {
+  position: relative;
+  text-align: center;
 }
 
-@media only screen and (min-width: var(--big-screen)) {
-  .dashboard-card {
-    width: 30%;
-  }
+h1:after {
+  margin-top: 5px;
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--color-3);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.dashboard-card:hover > h1:after {
+  width: 60%;
+  left: 20%;
+}
+
+.fa.fa-wifi {
+  font-size: 275px;
+  text-align: center;
 }

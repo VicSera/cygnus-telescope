@@ -7,12 +7,10 @@ body {
   --color-2: #034078;
   --color-3: #001f54;
   --color-4: #0a1128;
-  color: var(--color-4);
+  color: var(--color-3);
 
-  --big-screen: 1200;
-  --small-screen: 600;
-}
+  --big-screen: 1200px;
+  --small-screen: 600px;
 
-* {
   font-family: 'Montserrat', sans-serif;
 }
