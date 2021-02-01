@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: var(--color-0);
   border: 2px solid var(--color-2);
-  border-radius: 5px;
+  border-radius: 15px;
   height: 400px;
   padding: 10px;
 }
@@ -26,7 +26,7 @@ h1:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: var(--color-3);
+  background-color: var(--color-3);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -36,7 +36,8 @@ h1:after {
   left: 20%;
 }
 
-.fa.fa-wifi {
+i {
   font-size: 275px;
   text-align: center;
 }
+

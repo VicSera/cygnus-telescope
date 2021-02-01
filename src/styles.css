@@ -14,3 +14,8 @@ body {
 
   font-family: 'Montserrat', sans-serif;
 }
+
+a {
+  color: var(--color-3);
+  text-decoration: none;
+}
