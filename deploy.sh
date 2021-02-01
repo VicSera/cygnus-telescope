@@ -9,5 +9,5 @@ docker image build -t vicsera/cygnus:telescope .
 
 # Update the container to use the new image
 docker container rm telescope
-docker start --name telescope -d -p 81:80 vicsera/cygnus:telescope
+docker run --name telescope -d -p 81:80 vicsera/cygnus:telescope
 docker image prune -f
